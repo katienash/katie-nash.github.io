@@ -8,7 +8,7 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: /* Ubuntu, sans-serif */;
-    color: /* #xxxxxx */;
+    color:/* #xxxxxx */;
 }
 
 h1 {
@@ -30,14 +30,15 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color: /* */;
+    background-color: blue/* */;
     color: whitesmoke;
 }
 
 header img {
-    width: /*  */;
+    width: 10% /*  */;
     height: auto;
     float: right;
+    margin-top: -3%
 }
 
 footer {
