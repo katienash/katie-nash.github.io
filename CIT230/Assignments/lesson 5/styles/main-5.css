@@ -22,9 +22,12 @@ footer {
     /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
-header {}
+header {font-family: 'Abril Fatface', cursive;
+    
+}
 
-header h1 {}
+header h1 {
+}
 
 header img {}
 
