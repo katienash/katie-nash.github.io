@@ -16,12 +16,18 @@
 
     <header>
         <h1>The Weather Vane</h1>
+        <picture>
+        <img src=images/franklin-original.jpeg; alt="Franklin landscape" sizes="100vw"
+             srcset="images/franklin_large 1200w, ">
+            
+        </picture>
         
-        <img src=images/the%20seasons.jpg width="100%" ; height="100%" ; alt="all the seaons">
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+        
     </header>
     
     <nav>
-        <ul>
+        <ul class="navigation">
             <li><a href="home.html">Home |</a></li>
             <li><a href="franklin-5.html">Franklin |</a></li>
             <li><a href="greenville.html">Greenville |</a></li>
@@ -104,7 +110,11 @@
         <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span>
         </section>
     </footer>
-
+<script src="script/currentdate.js">
+    </script>
+    <script src="script/hamburger.js">
+    </script>
+    
 </body>
 
 </html>

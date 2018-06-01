@@ -35,6 +35,9 @@ header img {}
 header .subheading {}
 
 nav {}
+.hamburger { display: block;position: absolute;top: 2.0rem;right: 1.25rem; }
+
+.navigation { list-style: none; padding-left: 0; }
 
 nav button {}
 
