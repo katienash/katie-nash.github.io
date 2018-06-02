@@ -23,4 +23,4 @@ month[11]="December";
 
 var m = month[d.getMonth()];     
 var n = weekday[d.getDay()];
-document.getElementById("currentdate").innerHTML = n + ", " + m + d.getDate() + ", " + d.getFullYear();
+document.getElementById("currentdate").innerHTML = n + ", " +   d.getDate() + m  + ", " + d.getFullYear();
